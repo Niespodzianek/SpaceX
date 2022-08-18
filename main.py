@@ -24,8 +24,7 @@ def odczytanie_informacji(adres_strony):
 def program():
     api = "https://api.spacexdata.com/v3/missions"
     odczytanie_informacji(adres_strony=api)
-    print("KONIEC PRACY")
-
+    print("KONIEC")
 
 if __name__ == "__main__":
     program()

@@ -21,7 +21,7 @@ def program():
     api = "https://api.spacexdata.com/v3/missions"
     zaplanowane_misje = odczytanie_infornacji_o_misjach(adres_strony=api)
     prezentacja_misji(zaplanowane_misje)
-    print("KONIEC PRACY")
+    print("KONIEC  PRACY")
 
 
 if __name__ == "__main__":
